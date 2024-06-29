@@ -7,10 +7,11 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      fontFamily: {
+        figtree: ["Figtree", "sans-serif"],
+      },
+      boxShadow: {
+        "top-right": "18px -18px 20px rgba(0,0,0,0.7)",
       },
     },
   },
